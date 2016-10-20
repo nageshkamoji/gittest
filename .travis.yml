@@ -1,13 +1,11 @@
 language:java
 
 
- -rvm install 2.2
- -rvm use 2.2
- -gem install hiptest-publisher
- -hiptest-publisher-c junit.conf --TOKEN=8634063014329869632185981892352964833992354527938615994 --only =tests --test-run-id=46454
+ rvm install 2.2
+ rvm use 2.2
+ gem install hiptest-publisher
+ hiptest-publisher-c junit.conf --TOKEN=8634063014329869632185981892352964833992354527938615994 --only =tests --test-run-id=46454
 
 
- -mvn package
- 
-
-  -hiptest-publisher-c junit.conf --TOKEN=8634063014329869632185981892352964833992354527938615994 -p "target\surefire-reports\TEST-com.example.ProjectTest.xml" --test-run-id=46454
+ mvn package
+hiptest-publisher-c junit.conf --TOKEN=8634063014329869632185981892352964833992354527938615994 -p "target\surefire-reports\TEST-com.example.ProjectTest.xml" --test-run-id=46454
