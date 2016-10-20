@@ -1,4 +1,14 @@
 language:java
+sudo: false
+
+jdk:
+  - oraclejdk8
+before_install:
+  - git submodule update --init --recursive
+
+after_success:
+  - mvn clean cobertura:cobertura org.eluder.coveralls:coveralls-maven-plugin:report
+
 -rvm install 2.2
 -rvm use 2.2
 -gem install hiptest-publisher
