@@ -7,7 +7,6 @@ before_install:
   - rvm install 2.2
   - rvm use 2.2
   - gem install hiptest-publisher
-  -mvn clean
   - hiptest-publisher -c hiptest-publisher.config --token=8634063014329869632185981892352964833992354527938615994 --only=tests --test-run-id=46454
 
 script:
