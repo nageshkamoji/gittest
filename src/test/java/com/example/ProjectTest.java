@@ -11,6 +11,6 @@ public class ProjectTest extends TestCase
 	{
         actionwords.iOpenP1("http://google.com");
         actionwords.iSearchForP1("Hiptest");
-       // actionwords.aLinkToP1IsShownInTheResults("Hiptest - Agile test management tool");
+       actionwords.aLinkToP1IsShownInTheResults("Hiptest - Agile test management tool");
      }
 }
