@@ -1,4 +1,5 @@
 package com.example;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -8,9 +9,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 
 public class Actionwords {
-private WebDriver driver;
+     
+WebDriver driver;
 
-Actionwords() {
+public void Actionwords() {
      driver = new FirefoxDriver();
 }
  public void iOpenP1(String p1) {
