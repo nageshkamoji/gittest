@@ -8,7 +8,6 @@
     <version>1.0-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
 	<properties>
-		<java-version>1.8</java-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<overwrite.binaries>false</overwrite.binaries>
@@ -17,7 +16,7 @@
 		<remote>false</remote>
 		<seleniumGridURL/>
 		<platform/>
-		<browserVersion>49.0.2</browserVersion>
+		<browserVersion>46.0.0</browserVersion>
 		<proxyEnabled>false</proxyEnabled>
 		<proxyHost/>
                 <proxyPort/>
