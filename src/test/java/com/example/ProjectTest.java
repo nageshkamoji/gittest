@@ -1,9 +1,10 @@
 package com.example;
+
 import junit.framework.TestCase;
 
 public class ProjectTest extends TestCase {
 
-    public Actionwords actionwords = new Actionwords();
+    Actionwords actionwords = new Actionwords();
 
     public void testFindingASiteOnGoogle() {
         actionwords.iOpenP1("http://google.com");
