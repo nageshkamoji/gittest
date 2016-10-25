@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 
-public class Actionwords extends ProjectTest{
+public class Actionwords {
      
 private WebDriver driver;
 

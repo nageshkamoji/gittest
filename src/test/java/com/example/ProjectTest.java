@@ -2,7 +2,7 @@ package com.example;
 
 import junit.framework.TestCase;
 
-public class ProjectTest extends TestCase 
+public class ProjectTest extends Actionwords 
 {
 
     Actionwords actionwords = new Actionwords();
