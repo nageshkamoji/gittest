@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 
 public class Actionwords {
      
-WebDriver driver;
+WebDriver driver=null;
 
 public void Actionwords() {
      driver = new FirefoxDriver();
