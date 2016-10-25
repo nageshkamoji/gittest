@@ -16,7 +16,7 @@
 		<remote>false</remote>
 		<seleniumGridURL/>
 		<platform/>
-		<browserVersion>51.0.0</browserVersion>
+		<browserVersion>52.0.0</browserVersion>
 		<proxyEnabled>false</proxyEnabled>
 		<proxyHost/>
                 <proxyPort/>
