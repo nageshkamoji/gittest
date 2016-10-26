@@ -10,12 +10,9 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 
 public class Actionwords {
      
-     WebDriver driver;
+     WebDriver driver= new FirefoxDriver();
 
-	public void Actionwords() 
-	{
-      	    driver = new FirefoxDriver();
-	}
+	
 	public void iOpenP1(String p1) 
 	{
 	  System.out.println("inside iOpenP1"+p1);	
