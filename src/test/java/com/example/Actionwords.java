@@ -12,7 +12,7 @@ public class Actionwords {
      
      WebDriver driver;
 
-	public void Actionwords() 
+	Actionwords() 
 	{
       	    driver = new FirefoxDriver();
 	}
