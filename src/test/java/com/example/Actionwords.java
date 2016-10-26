@@ -10,19 +10,23 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 
 public class Actionwords {
      
-WebDriver driver=null;
+	WebDriver driver=null;
 
-public void Actionwords() {
+	public void Actionwords() 
+	{
      driver = new FirefoxDriver();
-}
- public void iOpenP1(String p1) {
+	}
+	public void iOpenP1(String p1) 
+	{
+		
      driver.get(p1);
- }
-     public void iSearchForP1(String p1) {
+	}
+     public void iSearchForP1(String p1) 
+	 {
      WebElement element = driver.findElement(By.name("q"));
      element.clear();
      element.sendKeys(p1);
      element.submit();
- }
+	}
 
 }
