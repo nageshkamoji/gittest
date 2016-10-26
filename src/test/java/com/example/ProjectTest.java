@@ -4,14 +4,25 @@ import junit.framework.TestCase;
 
 public class ProjectTest extends TestCase {
 
-    public Actionwords actionwords = new Actionwords();
+    Actionwords action = new Actionwords();
 
     public void testFindingASiteOnGoogle() {
-        // Given  I open "http://www/google.com"
-        actionwords.iOpenP1("http://www/google.com");
-        // When I search for "Hiptest"
-        actionwords.iSearchForP1("Hiptest");
-        // Then a link to "Hiptest" agile management tool will open
-        //actionwords.aLinkToP1AgileManagementToolWillOpen("Hiptest");
+        
+        if (action != null)
+        {
+            // Given  I open "http://www/google.com"
+            action.iOpenP1("http://www/google.com");
+            // When I search for "Hiptest"
+            action.iSearchForP1("Hiptest");
+        }
+        else
+        {
+          Actionwords action1 = new Actionwords();
+          action1.iOpenP1("http://www/google.com");
+          // When I search for "Hiptest"
+          action1.iSearchForP1("Hiptest");
+            
+        }
+        
     }
 }
