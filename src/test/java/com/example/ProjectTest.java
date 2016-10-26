@@ -6,7 +6,8 @@ public class ProjectTest extends TestCase {
 
     Actionwords action = new Actionwords();
 
-    public void testFindingASiteOnGoogle() {
+    public void testGoogle() {
+        System.out.println("inside testGoogle");
         
         if (action != null)
         {
