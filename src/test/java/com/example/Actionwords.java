@@ -18,7 +18,7 @@ public class Actionwords {
 	}
 	public void iOpenP1(String p1) 
 	{
-	  System.out.println("inside iOpenP1");	
+	  System.out.println("inside iOpenP1"+p1);	
      	  driver.get(p1);
 		 System.out.println("after driver get");	
 	}
