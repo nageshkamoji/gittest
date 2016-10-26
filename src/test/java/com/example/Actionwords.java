@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 
 public class Actionwords {
      
-	WebDriver driver=null;
+	private WebDriver driver;
 
 	public void Actionwords() 
 	{
