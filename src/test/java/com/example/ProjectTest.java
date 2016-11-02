@@ -12,7 +12,7 @@ public class ProjectTest extends TestCase {
      
         Actionwords actionwords = new Actionwords();
 	
-	 System.out.println("BEFORE  testFindingASiteOnGoogle");
+	 System.out.println("BEFORE test FindingASiteOnGoogle");
      
      public void testFindingASiteOnGoogle(String p1) 
 	{
