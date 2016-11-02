@@ -11,10 +11,13 @@ import junit.framework.TestCase;
 public class ProjectTest extends TestCase {
      
         Actionwords actionwords = new Actionwords();
+	
+	 System.out.println("BEFORE  testFindingASiteOnGoogle");
      
      public void testFindingASiteOnGoogle(String p1) 
 	{
-	     actionwords.iOpenP1("http://www/google.com");
-	
+	     System.out.println("inside testFindingASiteOnGoogle");
+		actionwords.iOpenP1("http://www/google.com");
+	  System.out.println("after iOpenP1");
 	}
 }
