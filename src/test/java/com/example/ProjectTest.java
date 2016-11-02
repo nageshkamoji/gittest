@@ -9,7 +9,7 @@ public class ProjectTest extends TestCase {
 
     public void testFindingASiteOnGoogle() {
         actionwords.iOpenP1("http://google.com");
-        actionwords.iSearchForP1("Hiptest");
+        actionwords.iSearchForP1("Hiptest"); 
         actionwords.aLinkToP1IsShownInTheResults("Hiptest - Agile test management tool");
      }
 }
