@@ -12,24 +12,11 @@ public class Actionwords {
      
      WebDriver driver;
 	
-	public void Actionwords()
-	{
-	      driver=new FirefoxDriver();
-	}
-
- 	
 	public void iOpenP1(String p1) 
 	{
-	  System.out.println("inside iOpenP1"+p1);	
+	   driver = new FirefoxDriver();
+	   System.out.println("inside iOpenP1"+p1);	
      	  driver.get(p1);
-		 System.out.println("after driver get");	
+	  System.out.println("after driver get");	
 	}
-     public void iSearchForP1(String p1) 
-	 {
-     WebElement element = driver.findElement(By.name("q"));
-     element.clear();
-     element.sendKeys(p1);
-     element.submit();
-	}
-
-}
+    }
