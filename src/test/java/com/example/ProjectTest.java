@@ -12,7 +12,7 @@ public class ProjectTest extends TestCase {
      
      WebDriver driver=null;
      
-     public void testP1(String p1) 
+     public void testFindingASiteOnGoogle(String p1) 
 	{
 	     String url = "http://www.google.com";
           driver = new FirefoxDriver();
