@@ -17,7 +17,7 @@ public class Actionwords {
 	      driver=new FirefoxDriver();
 	}
 
-	
+ 	
 	public void iOpenP1(String p1) 
 	{
 	  System.out.println("inside iOpenP1"+p1);	
