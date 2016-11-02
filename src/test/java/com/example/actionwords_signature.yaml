@@ -1,0 +1,9 @@
+---
+- name: Power on the coffee machine
+  uid: 21ebace2-0365-4a05-99bb-7e063ea6de6e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Power off
+  uid: 27353cf6-01b3-43c6-9faf-53e7d7c3b15d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
