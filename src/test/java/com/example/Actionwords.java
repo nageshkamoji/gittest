@@ -13,7 +13,10 @@ public class Actionwords {
     WebDriver driver=null;
 
 	public Actionwords() {
-		 driver = new FirefoxDriver();
+		System.setProperty("D:\\geckodriver-v0.11.1-win64\\geckodriver.exe");
+
+		driver = new FirefoxDriver();
+		
 	}
 	
 	 public void iOpenP1(String p1) {
