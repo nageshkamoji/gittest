@@ -30,7 +30,7 @@ public Actionwords()
     final String matcher = p1;
 
     (new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>() {
-        public Boolean apply(driver d) {
+        public Boolean apply(WebDriver d) {
         return d.findElements(By.linkText(matcher)).size() != 0;
         }
     });driver.quit();
