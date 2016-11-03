@@ -1,9 +1,6 @@
 package com.example;
-
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriver.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -29,7 +26,6 @@ public Actionwords()
 
  public void aLinkToP1IsShownInTheResults(String p1) {
     final String matcher = p1;
-
     (new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>() {
         public Boolean apply(WebDriver d) {
         return d.findElements(By.linkText(matcher)).size() != 0;
